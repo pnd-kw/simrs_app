@@ -1,4 +1,4 @@
-import { postAsuransi, updateAsuransi } from "@/api/master/asuransi";
+import { postAsuransi, updateAsuransi } from "@/api_disabled/master/asuransi";
 import DynamicFormFields from "@/components/DynamicFormView";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";

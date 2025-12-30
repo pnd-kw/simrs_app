@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { Textarea } from "@/components/ui/textarea";
-import { cancelBooking } from "@/api/registrasi/booking";
+import { cancelBooking } from "@/api_disabled/registrasi/booking";
 import { useUpdate } from "@/hooks/mutation/use-update";
 import { Button } from "@/components/ui/button";
 

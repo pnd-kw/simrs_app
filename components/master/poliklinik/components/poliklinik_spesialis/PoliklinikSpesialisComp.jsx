@@ -2,7 +2,7 @@ import {
   getPoliklinikSpesialis,
   postPoliklinikSpesialis,
   updatePoliklinikSpesialis,
-} from "@/api/master/poliklinik";
+} from "@/api_disabled/master/poliklinik";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import {

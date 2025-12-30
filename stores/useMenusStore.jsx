@@ -1,4 +1,4 @@
-import { loginListMenu } from "@/api/auth/login";
+import { loginListMenu } from "@/api_disabled/auth/login";
 import LoketCall from "@/components/antrean_call/loket_call/LoketCall";
 import DashboardLayout from "@/components/executive/dashboard/DashboardLayout";
 import DisplayLayout from "@/components/management/antrian_display/display/DisplayLayout";

@@ -36,7 +36,7 @@ import {
   printAntrianIgd,
   printLabelIgd,
   updateIgd,
-} from "@/api/registrasi/igd";
+} from "@/api_disabled/registrasi/igd";
 import { CARA_MASUK, SEBAB_SAKIT } from "../../ConstantsValue";
 import {
   Popover,

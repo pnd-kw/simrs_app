@@ -1,9 +1,9 @@
-import { postLayanan, updateLayanan } from "@/api/master/layanan";
+import { postLayanan, updateLayanan } from "@/api_disabled/master/layanan";
 import {
   getMasterJenisHarga,
   postMasterJenisHarga,
   updateMasterJenisHarga,
-} from "@/api/master/masterJenisHarga";
+} from "@/api_disabled/master/masterJenisHarga";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Table } from "@/utils/table/table";
 import toastWithProgress from "@/utils/toast/toastWithProgress";

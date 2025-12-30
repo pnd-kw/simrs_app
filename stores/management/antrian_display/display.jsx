@@ -1,4 +1,4 @@
-import { deleteManagementDisplay, getManagementDisplay, postManagementDisplay, updateManagementDisplay } from "@/api/management/managementDisplay";
+import { deleteManagementDisplay, getManagementDisplay, postManagementDisplay, updateManagementDisplay } from "@/api_disabled/management/managementDisplay";
 import toastWithProgress from "@/utils/toast/toastWithProgress";
 import { create } from "zustand";
 

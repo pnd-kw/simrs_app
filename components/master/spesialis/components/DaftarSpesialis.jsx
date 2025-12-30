@@ -1,4 +1,4 @@
-import { spesialis } from "@/api/master/spesialis";
+import { spesialis } from "@/api_disabled/master/spesialis";
 import Spinner from "@/utils/spinner";
 import SearchField from "@/utils/table/searchField";
 import { Table } from "@/utils/table/table";

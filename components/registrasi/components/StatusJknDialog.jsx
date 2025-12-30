@@ -1,4 +1,4 @@
-import { getStatusJkn } from "@/api/registrasi/statusJkn";
+import { getStatusJkn } from "@/api_disabled/registrasi/statusJkn";
 import { useFetchParams } from "@/hooks/fetch/use-fetch-params";
 import { DateTime } from "@/utils/dateTime";
 import { SkeletonMultiText } from "@/utils/skeletonLoader";

@@ -1,4 +1,4 @@
-import { deleteRawatInap, getRawatInap, postRawatInap, updateRawatInap } from "@/api/registrasi/ranap";
+import { deleteRawatInap, getRawatInap, postRawatInap, updateRawatInap } from "@/api_disabled/registrasi/ranap";
 import toastWithProgress from "@/utils/toast/toastWithProgress";
 import { create } from "zustand";
 

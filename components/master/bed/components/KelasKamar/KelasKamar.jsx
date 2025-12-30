@@ -3,7 +3,7 @@ import {
   getKelasKamarList,
   postKelasKamar,
   updateKelasKamar,
-} from "@/api/master/bed";
+} from "@/api_disabled/master/bed";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import { Table } from "@/utils/table/table";

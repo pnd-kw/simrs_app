@@ -1,4 +1,4 @@
-import { getDokter } from "@/api/master/dokter";
+import { getDokter } from "@/api_disabled/master/dokter";
 import DynamicFormFields from "@/components/DynamicFormView";
 import useDialog from "@/hooks/ui/use-dialog";
 import {

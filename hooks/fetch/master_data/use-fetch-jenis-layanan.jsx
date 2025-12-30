@@ -1,4 +1,4 @@
-import { getJenisLayanan } from "@/api/master/layanan";
+import { getJenisLayanan } from "@/api_disabled/master/layanan";
 import { useQuery } from "@tanstack/react-query";
 
 export const useFetchJenisLayanan = () => {

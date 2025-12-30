@@ -1,4 +1,4 @@
-import { postSpesialis } from "@/api/master/spesialis";
+import { postSpesialis } from "@/api_disabled/master/spesialis";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,

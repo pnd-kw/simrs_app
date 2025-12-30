@@ -3,7 +3,7 @@ import {
   getProfileRekamMedis,
   postProfileRekamMedis,
   updateProfileRekamMedis,
-} from "@/api/management/profileRekamMedis";
+} from "@/api_disabled/management/profileRekamMedis";
 import {
   getListAgama,
   getListGolonganDarah,
@@ -11,7 +11,7 @@ import {
   getListPenaggungJawab,
   getListPendidikan,
   getListSukuBangsa,
-} from "@/api/master/attribut";
+} from "@/api_disabled/master/attribut";
 import toastWithProgress from "@/utils/toast/toastWithProgress";
 import { create } from "zustand";
 

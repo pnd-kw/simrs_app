@@ -1,9 +1,9 @@
-import { getLayanan, postLayanan, updateLayanan } from "@/api/master/layanan";
+import { getLayanan, postLayanan, updateLayanan } from "@/api_disabled/master/layanan";
 import {
   getTarif,
   postKelasKunjungan,
   updateKelasKunjungan,
-} from "@/api/master/registrasi";
+} from "@/api_disabled/master/registrasi";
 import { FormModalZod } from "@/components/FormModalZod";
 import {
   getKelasKunjunganCheckboxes,

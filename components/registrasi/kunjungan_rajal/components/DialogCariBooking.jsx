@@ -1,5 +1,5 @@
-import { getJadwalDokter } from "@/api/master/jadwalDokter";
-import { getListBooking } from "@/api/registrasi/booking";
+import { getJadwalDokter } from "@/api_disabled/master/jadwalDokter";
+import { getListBooking } from "@/api_disabled/registrasi/booking";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {

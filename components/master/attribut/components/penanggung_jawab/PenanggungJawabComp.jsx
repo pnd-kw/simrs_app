@@ -5,7 +5,7 @@ import {
   postPenaggungJawab,
   updatePekerjaan,
   updatePenaggungJawab,
-} from "@/api/master/attribut";
+} from "@/api_disabled/master/attribut";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Table } from "@/utils/table/table";
 import toastWithProgress from "@/utils/toast/toastWithProgress";

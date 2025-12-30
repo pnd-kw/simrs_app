@@ -1,4 +1,4 @@
-import { getListPoliklinik } from "@/api/master/poliklinik";
+import { getListPoliklinik } from "@/api_disabled/master/poliklinik";
 import { useQuery } from "@tanstack/react-query";
 
 export const useFetchPoliklinik = () => {

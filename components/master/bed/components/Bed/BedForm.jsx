@@ -1,4 +1,4 @@
-import { postBed, updateBed } from "@/api/master/bed";
+import { postBed, updateBed } from "@/api_disabled/master/bed";
 import DynamicFormFields from "@/components/DynamicFormView";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";

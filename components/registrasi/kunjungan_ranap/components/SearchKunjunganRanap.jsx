@@ -17,7 +17,7 @@ import useScrollTopStore from "@/stores/useScrollTopStore";
 import { SkeletonTable } from "@/utils/skeletonLoader";
 import {
   deleteRajal,
-} from "@/api/registrasi/rajal";
+} from "@/api_disabled/registrasi/rajal";
 import { format } from "date-fns";
 import useDialog from "@/hooks/ui/use-dialog";
 import DialogDelete from "@/components/DialogDelete";
@@ -30,7 +30,7 @@ import { useFetchQuery } from "@/hooks/fetch/use-fetch-query";
 import { useDelete } from "@/hooks/mutation/use-delete";
 import { useFetchPoliklinik } from "@/hooks/fetch/master_data/use-fetch-poliklinik";
 import { useFetchDoctor } from "@/hooks/fetch/master_data/use-fetch-doctor";
-import { getRawatInap } from "@/api/registrasi/ranap";
+import { getRawatInap } from "@/api_disabled/registrasi/ranap";
 
 const columnPencarian = [
   { key: "Semua", value: "all" },

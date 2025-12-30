@@ -1,4 +1,4 @@
-import { getListDokter } from "@/api/master/dokter";
+import { getListDokter } from "@/api_disabled/master/dokter";
 import { useQuery } from "@tanstack/react-query";
 
 export const useFetchDoctor = () => {

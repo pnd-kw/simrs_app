@@ -1,5 +1,5 @@
-import { loginSanctum } from "@/api/auth/login";
-import { logoutUser } from "@/api/auth/logout";
+import { loginSanctum } from "@/api_disabled/auth/login";
+import { logoutUser } from "@/api_disabled/auth/logout";
 import { tokenSync } from "@/utils/tokenSync";
 import { create } from "zustand";
 

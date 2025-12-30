@@ -6,7 +6,7 @@ import {
   getKecamatan,
   getKelurahan,
   getKabupaten,
-} from "@/api/management/lokasi";
+} from "@/api_disabled/management/lokasi";
 
 export const useNegaraStore = create((set, get) => ({
   negara: [],

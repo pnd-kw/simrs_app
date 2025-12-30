@@ -3,12 +3,12 @@ import {
   getDataKlaim,
   getDataKunjungan,
   getDataPelayanan,
-} from "@/api/ws_bridging/monitoring";
-import { getDataBPJS, getDataNIK } from "@/api/ws_bridging/peserta";
-import { getDataDokter } from "@/api/ws_bridging/rencanaKontrol";
-import { getKeluarRs, getMultiRecordPcare } from "@/api/ws_bridging/rujukan";
-import { getSarana } from "@/api/ws_bridging/sarana";
-import { getSepBridging } from "@/api/ws_bridging/sep";
+} from "@/api_disabled/ws_bridging/monitoring";
+import { getDataBPJS, getDataNIK } from "@/api_disabled/ws_bridging/peserta";
+import { getDataDokter } from "@/api_disabled/ws_bridging/rencanaKontrol";
+import { getKeluarRs, getMultiRecordPcare } from "@/api_disabled/ws_bridging/rujukan";
+import { getSarana } from "@/api_disabled/ws_bridging/sarana";
+import { getSepBridging } from "@/api_disabled/ws_bridging/sep";
 import toastWithProgress from "@/utils/toast/toastWithProgress";
 import { create } from "zustand";
 

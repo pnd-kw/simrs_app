@@ -2,7 +2,7 @@ import useDialog from "@/hooks/ui/use-dialog";
 import { BouncingImage } from "@/utils/BouncingImage";
 import { useCreate } from "@/hooks/mutation/use-create";
 import { Button } from "@/components/ui/button";
-import { bukaKunjungan } from "@/api/registrasi/bukaTutupBatalKunjungan";
+import { bukaKunjungan } from "@/api_disabled/registrasi/bukaTutupBatalKunjungan";
 
 const DialogBukaKunjungan = ({
   dialogImage,

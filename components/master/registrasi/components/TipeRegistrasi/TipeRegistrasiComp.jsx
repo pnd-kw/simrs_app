@@ -1,5 +1,5 @@
-import { getTipeRegistrasi } from "@/api/master/registrasi";
-import { postTextDisplay, updateTextDisplay } from "@/api/master/textDisplay";
+import { getTipeRegistrasi } from "@/api_disabled/master/registrasi";
+import { postTextDisplay, updateTextDisplay } from "@/api_disabled/master/textDisplay";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Table } from "@/utils/table/table";
 import { zodResolver } from "@hookform/resolvers/zod";

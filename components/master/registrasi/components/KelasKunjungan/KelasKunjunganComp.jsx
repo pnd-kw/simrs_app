@@ -3,7 +3,7 @@ import {
   getTarif,
   postKelasKunjungan,
   updateKelasKunjungan,
-} from "@/api/master/registrasi";
+} from "@/api_disabled/master/registrasi";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import Spinner from "@/utils/spinner";

@@ -1,4 +1,4 @@
-import { kodeBridgePoliklinik } from "@/api/master/spesialis";
+import { kodeBridgePoliklinik } from "@/api_disabled/master/spesialis";
 import useDialog from "@/hooks/ui/use-dialog";
 import SearchField from "@/utils/table/searchField";
 import { Table } from "@/utils/table/table";

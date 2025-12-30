@@ -4,7 +4,7 @@ import { Textarea } from "../../ui/textarea";
 
 import useDialog from "@/hooks/ui/use-dialog";
 import { useCreate } from "@/hooks/mutation/use-create";
-import { batalKunjungan } from "@/api/registrasi/bukaTutupBatalKunjungan";
+import { batalKunjungan } from "@/api_disabled/registrasi/bukaTutupBatalKunjungan";
 
 const DialogBatalKunjungan = ({ idKunjungan }) => {
   const { close } = useDialog();

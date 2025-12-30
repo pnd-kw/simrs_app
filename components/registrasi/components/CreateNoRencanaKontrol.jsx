@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import DatePicker from "@/utils/datePicker";
 import { useCreate } from "@/hooks/mutation/use-create";
-import { createNoKontrol } from "@/api/registrasi/noKontrol";
+import { createNoKontrol } from "@/api_disabled/registrasi/noKontrol";
 import { format } from "date-fns";
 import {
   Popover,

@@ -1,4 +1,4 @@
-import { getJadwalDokterHFIS } from "@/api/master/jadwalDokter";
+import { getJadwalDokterHFIS } from "@/api_disabled/master/jadwalDokter";
 import DynamicFormFields from "@/components/DynamicFormView";
 import useDialog from "@/hooks/ui/use-dialog";
 import { useListPoliklinikStore } from "@/stores/master/useMasterStore";

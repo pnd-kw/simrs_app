@@ -7,7 +7,7 @@ import useDialog from "@/hooks/ui/use-dialog";
 import DatePicker from "@/utils/datePicker";
 import { SkeletonTable } from "@/utils/skeletonLoader";
 import { useFetchQuery } from "@/hooks/fetch/use-fetch-query";
-import { searchTriage } from "@/api/registrasi/igd";
+import { searchTriage } from "@/api_disabled/registrasi/igd";
 import toastWithProgress from "@/utils/toast/toastWithProgress";
 
 const mappedData = (data) =>

@@ -1,6 +1,6 @@
-import { getListKabupaten } from "@/api/master/kabupaten";
-import { getListKecamatan } from "@/api/master/kecamatan";
-import { getListProvinsi } from "@/api/master/provinsi";
+import { getListKabupaten } from "@/api_disabled/master/kabupaten";
+import { getListKecamatan } from "@/api_disabled/master/kecamatan";
+import { getListProvinsi } from "@/api_disabled/master/provinsi";
 import {
   getSepDetail,
   getSepHistory,
@@ -9,7 +9,7 @@ import {
   getListDiagnosa,
   getSepBySep,
   getSepRencanaKontrol,
-} from "@/api/registrasi/sep";
+} from "@/api_disabled/registrasi/sep";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";

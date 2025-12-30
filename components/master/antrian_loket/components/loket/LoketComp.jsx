@@ -1,5 +1,5 @@
-import { getLoket, postLoket, updateLoket } from "@/api/master/antrianLoket";
-import { getListLayanan } from "@/api/master/layanan";
+import { getLoket, postLoket, updateLoket } from "@/api_disabled/master/antrianLoket";
+import { getListLayanan } from "@/api_disabled/master/layanan";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import { Table } from "@/utils/table/table";

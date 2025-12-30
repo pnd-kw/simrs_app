@@ -6,7 +6,7 @@ import {
   printLabelRajal,
   updateDataAntrian,
   updateRajal,
-} from "@/api/registrasi/rajal";
+} from "@/api_disabled/registrasi/rajal";
 import DialogCariRekamMedis from "../../components/DialogCariRekamMedis";
 import DialogNoRujukan from "@/components/registrasi/components/DialogNoRujukan";
 import { Button } from "@/components/ui/button";
@@ -45,7 +45,7 @@ import { useFetchPoliklinik } from "@/hooks/fetch/master_data/use-fetch-poliklin
 import { useFetchDoctor } from "@/hooks/fetch/master_data/use-fetch-doctor";
 import { useFetchScheduleDoctor } from "@/hooks/fetch/master_data/use-fetch-schedule-doctor";
 import { useFetchParams } from "@/hooks/fetch/use-fetch-params";
-import { getJadwalDokter } from "@/api/master/jadwalDokter";
+import { getJadwalDokter } from "@/api_disabled/master/jadwalDokter";
 import { format } from "date-fns";
 import { useUpdate } from "@/hooks/mutation/use-update";
 import DialogSep from "../../components/DialogSep";

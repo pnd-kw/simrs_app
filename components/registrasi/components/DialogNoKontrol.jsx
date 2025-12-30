@@ -21,7 +21,7 @@ import {
   deleteNoKontrol,
   getListNoKontrol,
   getNoKontrol,
-} from "@/api/registrasi/noKontrol";
+} from "@/api_disabled/registrasi/noKontrol";
 import { SkeletonTable } from "@/utils/skeletonLoader";
 import { Table } from "@/utils/table/table";
 import CreateNoRencanaKontrol from "./CreateNoRencanaKontrol";

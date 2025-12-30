@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { Button } from "../../ui/button";
 import useDialog from "@/hooks/ui/use-dialog";
 import { useCreate } from "@/hooks/mutation/use-create";
-import { tutupKunjungan } from "@/api/registrasi/bukaTutupBatalKunjungan";
+import { tutupKunjungan } from "@/api_disabled/registrasi/bukaTutupBatalKunjungan";
 
 const DialogTutupKunjungan = ({ idKunjungan, setIsKunjunganTertutup }) => {
   const { close } = useDialog();

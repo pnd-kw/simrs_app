@@ -1,4 +1,4 @@
-import { postPoliklinik, updatePoliklinik } from "@/api/master/poliklinik";
+import { postPoliklinik, updatePoliklinik } from "@/api_disabled/master/poliklinik";
 import DynamicFormFields from "@/components/DynamicFormView";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";

@@ -2,8 +2,8 @@ import {
   getAsuransi,
   getPerusahaan,
   getTipeAsuransi,
-} from "@/api/master/asuransi";
-import { getListBank } from "@/api/master/attribut";
+} from "@/api_disabled/master/asuransi";
+import { getListBank } from "@/api_disabled/master/attribut";
 import {
   getBed,
   getKelasKamarList,
@@ -14,15 +14,15 @@ import {
   getRuangAplicars,
   getRuangList,
   getTempatTidurRl,
-} from "@/api/master/bed";
-import { getListDokter } from "@/api/master/dokter";
-import { getJadwalDokter } from "@/api/master/jadwalDokter";
-import { getListLayanan } from "@/api/master/layanan";
-import { getMasterJenisHargaList } from "@/api/master/masterJenisHarga";
-import { getMovieList } from "@/api/master/movie";
-import { getListPoliklinik, getPoliklinik } from "@/api/master/poliklinik";
-import { getListSpesialis } from "@/api/master/spesialis";
-import { getTextDisplayLoketList } from "@/api/master/textDisplay";
+} from "@/api_disabled/master/bed";
+import { getListDokter } from "@/api_disabled/master/dokter";
+import { getJadwalDokter } from "@/api_disabled/master/jadwalDokter";
+import { getListLayanan } from "@/api_disabled/master/layanan";
+import { getMasterJenisHargaList } from "@/api_disabled/master/masterJenisHarga";
+import { getMovieList } from "@/api_disabled/master/movie";
+import { getListPoliklinik, getPoliklinik } from "@/api_disabled/master/poliklinik";
+import { getListSpesialis } from "@/api_disabled/master/spesialis";
+import { getTextDisplayLoketList } from "@/api_disabled/master/textDisplay";
 import toastWithProgress from "@/utils/toast/toastWithProgress";
 import { create } from "zustand";
 

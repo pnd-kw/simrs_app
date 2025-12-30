@@ -1,5 +1,5 @@
-import { useStoreAntreanCall } from "@/api/antrean_call/useStoreAntreanCall";
-import usePusher from "@/api/socket/usePusher";
+import { useStoreAntreanCall } from "@/api_disabled/antrean_call/useStoreAntreanCall";
+import usePusher from "@/api_disabled/socket/usePusher";
 import { ReusableTable } from "@/components/antrean_call/components/reusableTable";
 import { Icon } from "@iconify/react";
 import { useEffect, useState } from "react";

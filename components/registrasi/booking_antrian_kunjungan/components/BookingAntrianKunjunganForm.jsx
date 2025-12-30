@@ -1,5 +1,5 @@
-import { getJadwalDokter } from "@/api/master/jadwalDokter";
-import { printAntrianBooking, createBooking } from "@/api/registrasi/booking";
+import { getJadwalDokter } from "@/api_disabled/master/jadwalDokter";
+import { printAntrianBooking, createBooking } from "@/api_disabled/registrasi/booking";
 import DialogCancelBooking from "./DialogCancelBooking";
 import DialogNoRujukan from "@/components/registrasi/components/DialogNoRujukan";
 import StatusJknDialog from "@/components/registrasi/components/StatusJknDialog";
@@ -44,7 +44,7 @@ import {
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import useNoKontrol from "@/hooks/store/use-no-kontrol";
 import { useFetchParams } from "@/hooks/fetch/use-fetch-params";
-import { getPeserta } from "@/api/registrasi/rajal";
+import { getPeserta } from "@/api_disabled/registrasi/rajal";
 import {
   Popover,
   PopoverContent,

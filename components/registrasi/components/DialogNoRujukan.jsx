@@ -3,7 +3,7 @@ import { Button } from "../../ui/button";
 import { Table } from "@/utils/table/table";
 import SearchField from "@/utils/table/searchField";
 import { Icon } from "@iconify/react";
-import { getListRujukan } from "@/api/registrasi/rujukan";
+import { getListRujukan } from "@/api_disabled/registrasi/rujukan";
 import useDialog from "@/hooks/ui/use-dialog";
 import { useFetchQuery } from "@/hooks/fetch/use-fetch-query";
 import { useFilterAndPagination } from "@/hooks/utility/use-filter-and-pagination";

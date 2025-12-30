@@ -2,7 +2,7 @@ import {
   getTextDisplayKunjungan,
   postTextDisplay,
   updateTextDisplay,
-} from "@/api/master/textDisplay";
+} from "@/api_disabled/master/textDisplay";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import { Table } from "@/utils/table/table";

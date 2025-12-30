@@ -2,8 +2,8 @@ import {
   getTipeAntrian,
   postTipeAntrian,
   updateTipeAntrian,
-} from "@/api/master/antrianLoket";
-import { getListLayanan } from "@/api/master/layanan";
+} from "@/api_disabled/master/antrianLoket";
+import { getListLayanan } from "@/api_disabled/master/layanan";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import { useCreate } from "@/hooks/mutation/use-create";

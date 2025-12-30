@@ -1,4 +1,4 @@
-import { getRuang, postRuang, updateRuang } from "@/api/master/bed";
+import { getRuang, postRuang, updateRuang } from "@/api_disabled/master/bed";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import { Table } from "@/utils/table/table";

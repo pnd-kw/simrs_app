@@ -16,7 +16,7 @@ import DatePicker from "@/utils/datePicker";
 import { Button } from "@/components/ui/button";
 import useScrollTopStore from "@/stores/useScrollTopStore";
 import { SkeletonTable } from "@/utils/skeletonLoader";
-import { deleteRajal, getListRajal } from "@/api/registrasi/rajal";
+import { deleteRajal, getListRajal } from "@/api_disabled/registrasi/rajal";
 import { format } from "date-fns";
 import useDialog from "@/hooks/ui/use-dialog";
 import DialogDelete from "@/components/DialogDelete";

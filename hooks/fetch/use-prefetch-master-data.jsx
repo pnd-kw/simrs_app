@@ -1,8 +1,8 @@
 
-import { getAsuransi, getListPerusahaan } from "@/api/master/asuransi";
-import { getListDokter } from "@/api/master/dokter";
-import { getJenisLayanan } from "@/api/master/layanan";
-import { getListPoliklinik } from "@/api/master/poliklinik";
+import { getAsuransi, getListPerusahaan } from "@/api_disabled/master/asuransi";
+import { getListDokter } from "@/api_disabled/master/dokter";
+import { getJenisLayanan } from "@/api_disabled/master/layanan";
+import { getListPoliklinik } from "@/api_disabled/master/poliklinik";
 import { useQueryClient } from "@tanstack/react-query";
 
 export const usePrefetchMasterData = () => {

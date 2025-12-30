@@ -1,4 +1,4 @@
-import { getDataBPJS, getDataNIK } from "@/api/ws_bridging/peserta";
+import { getDataBPJS, getDataNIK } from "@/api_disabled/ws_bridging/peserta";
 import { optionsStatusPernikahan } from "@/utils/static_options/staticData";
 import { format } from "date-fns";
 import z from "zod";

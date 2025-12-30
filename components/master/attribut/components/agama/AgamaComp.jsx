@@ -1,4 +1,4 @@
-import { getAgama, postAgama, updateAgama } from "@/api/master/attribut";
+import { getAgama, postAgama, updateAgama } from "@/api_disabled/master/attribut";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import { Table } from "@/utils/table/table";

@@ -1,4 +1,4 @@
-import { getListBooking } from "@/api/registrasi/booking";
+import { getListBooking } from "@/api_disabled/registrasi/booking";
 import { Input } from "@/components/ui/input";
 import {
   Select,
@@ -23,7 +23,7 @@ import { useFetchQuery } from "@/hooks/fetch/use-fetch-query";
 import { useFetchScheduleDoctor } from "@/hooks/fetch/master_data/use-fetch-schedule-doctor";
 import { useFetchAsuransi } from "@/hooks/fetch/master_data/use-fetch-asuransi";
 import { useFetchDoctor } from "@/hooks/fetch/master_data/use-fetch-doctor";
-import { getJadwalDokter } from "@/api/master/jadwalDokter";
+import { getJadwalDokter } from "@/api_disabled/master/jadwalDokter";
 import {
   ASAL_BOOKING,
   STATUS_BOOKING,

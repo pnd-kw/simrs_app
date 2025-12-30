@@ -1,7 +1,7 @@
 import {
   postJadwalDokter,
   updateJadwalDokter,
-} from "@/api/master/jadwalDokter";
+} from "@/api_disabled/master/jadwalDokter";
 import DynamicFormFields from "@/components/DynamicFormView";
 import ReusableComboboxZod from "@/components/ReusableComboboxZod";
 import { Button } from "@/components/ui/button";

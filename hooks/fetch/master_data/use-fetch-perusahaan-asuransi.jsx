@@ -1,4 +1,4 @@
-import { getListPerusahaan } from "@/api/master/asuransi";
+import { getListPerusahaan } from "@/api_disabled/master/asuransi";
 import { useQuery } from "@tanstack/react-query";
 
 export const useFetchPerusahaanAsuransi = () => {

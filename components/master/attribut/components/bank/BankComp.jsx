@@ -1,4 +1,4 @@
-import { getBank, postBank, updateBank } from "@/api/master/attribut";
+import { getBank, postBank, updateBank } from "@/api_disabled/master/attribut";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import { Table } from "@/utils/table/table";

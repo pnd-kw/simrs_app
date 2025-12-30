@@ -23,7 +23,7 @@ import toastWithProgress from "@/utils/toast/toastWithProgress";
 import { useFetchQuery } from "@/hooks/fetch/use-fetch-query";
 import { useDelete } from "@/hooks/mutation/use-delete";
 import { useFetchDoctor } from "@/hooks/fetch/master_data/use-fetch-doctor";
-import { deleteIgd, getListIgd } from "@/api/registrasi/igd";
+import { deleteIgd, getListIgd } from "@/api_disabled/registrasi/igd";
 import useIgdRs from "@/hooks/kunjungan_igd/use-igd-rs";
 import { BATAL, SEARCH_COLUMN, STATUS, TYPE_RM } from "../../ConstantsValue";
 import {

@@ -14,7 +14,7 @@ import {
   updateHistoriBed,
   updateKondisiBed,
   updateMonitoringBed,
-} from "@/api/management/managementBed";
+} from "@/api_disabled/management/managementBed";
 import toastWithProgress from "@/utils/toast/toastWithProgress";
 import { create } from "zustand";
 

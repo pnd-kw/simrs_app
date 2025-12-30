@@ -1,4 +1,4 @@
-import { getSepHistory } from "@/api/registrasi/sep";
+import { getSepHistory } from "@/api_disabled/registrasi/sep";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useFetchQuery } from "@/hooks/fetch/use-fetch-query";

@@ -1,4 +1,4 @@
-import { getCoa, getKas, simpanKas, updateKas } from "@/api/master/kas";
+import { getCoa, getKas, simpanKas, updateKas } from "@/api_disabled/master/kas";
 import { FormModalZod } from "@/components/FormModalZod";
 import { Button } from "@/components/ui/button";
 import Spinner from "@/utils/spinner";

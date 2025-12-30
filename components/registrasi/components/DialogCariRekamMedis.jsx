@@ -10,7 +10,7 @@ import {
 import { Controller, useForm } from "react-hook-form";
 import { Icon } from "@iconify/react";
 import { Button } from "@/components/ui/button";
-import { searchPasien } from "@/api/registrasi/searchPasien";
+import { searchPasien } from "@/api_disabled/registrasi/searchPasien";
 import { useState } from "react";
 import { Table } from "@/utils/table/table";
 import useDialog from "@/hooks/ui/use-dialog";
