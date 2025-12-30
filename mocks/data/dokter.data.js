@@ -1,0 +1,38 @@
+export const mockDokterResponse = {
+  message: "Sukses",
+  data: [
+    {
+      id: 1,
+      fullname: "dr. Penyakit Dalam",
+      kode_bridge: "111111",
+      spec_code: "INT",
+      poliklinik_id: 1,
+      spesialist_id: 1,
+      spesialis_name: "PENYAKIT DALAM",
+      codebridgepolibpjs: "INT",
+      status: true,
+    },
+    {
+      id: 2,
+      fullname: "dr. Bedah",
+      kode_bridge: "222222",
+      spec_code: "BED",
+      poliklinik_id: 2,
+      spesialist_id: 2,
+      spesialis_name: "BEDAH UMUM",
+      codebridgepolibpjs: "BED",
+      status: true,
+    },
+    {
+      id: 3,
+      fullname: "dr. Umum",
+      kode_bridge: "333333",
+      spec_code: "UMU",
+      poliklinik_id: 3,
+      spesialist_id: 3,
+      spesialis_name: "UMUM",
+      codebridgepolibpjs: "UMU",
+      status: true,
+    },
+  ],
+};
