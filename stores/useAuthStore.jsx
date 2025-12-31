@@ -1,5 +1,6 @@
-import { loginSanctum } from "@/api_disabled/auth/login";
-import { logoutUser } from "@/api_disabled/auth/logout";
+// import { loginSanctum } from "@/api_disabled/auth/login";
+// import { logoutUser } from "@/api_disabled/auth/logout";
+import { demoLogin, demoLogout } from "@/services/demoAuth";
 import { tokenSync } from "@/utils/tokenSync";
 import { create } from "zustand";
 
@@ -14,7 +15,8 @@ const useAuthStore = create((set) => ({
     set({ isLoading: true });
 
     try {
-      const res = await loginSanctum({ username, password });
+      // const res = await loginSanctum({ username, password });
+      const res = await demoLogin(username, password);
 
       const userData = {
         id_user: res.data.id,
@@ -40,7 +42,8 @@ const useAuthStore = create((set) => ({
 
   logout: async () => {
     try {
-      await logoutUser();
+      // await logoutUser();
+      await demoLogout();
     } catch (error) {
       console.error("Logout API error", error);
     } finally {

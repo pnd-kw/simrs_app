@@ -26,6 +26,9 @@ export default function RootLayout({ children }) {
               {children}
             </main>
           </AuthProvider>
+          <div className="fixed bottom-2 right-2 text-xs text-gray-500">
+             Demo App · Data disimulasikan
+          </div>
           <Toaster richColors closeButton position="top-center" />
           <GlobalDialog />
         </Providers>
